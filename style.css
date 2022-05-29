@@ -1,0 +1,38 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap');
+
+body{
+    background-color: #f9e514;
+    margin: 0;
+}
+
+.menu_nav{
+    background-color: white;
+    height: 64px;
+    margin-top: 52px;
+    margin-right: 9%;
+    margin-bottom: 102px;
+    margin-left: 9%;
+    border-radius: 8px;
+    padding-right: 24px;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.links{
+    text-decoration: none;
+    color: #8d857b;
+    font-family: 'Oxygen Mono', monospace;
+    font-size: 12px;
+}
+
+.links_special{
+    text-decoration: none;
+    color: black;
+    font-family: 'Oxygen Mono', monospace;
+    font-size: 12px;
+}
