@@ -38,9 +38,13 @@ body{
     font-size: 14px;
 }
 
+.links:hover, .links_special:hover{
+    color: #f9e514;
+}
+
 .conteudo_main{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .titulos{
@@ -66,7 +70,7 @@ body{
 .lista{
     display: flex;
     flex-direction: column;
-    padding-left: 19%;
+    padding-left: 5%;
 }
 
 .itens_lista{
@@ -79,7 +83,7 @@ body{
     display: flex;
     flex-direction: row;
     gap: 24px;
-    margin: 32px 2px 24px 18%;
+    margin: 32px 2px 24px 3%;
     align-items: center;
 }
 
@@ -89,4 +93,35 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 1em;
+}
+
+.botao:hover{
+    background-color: black;
+    color: #f9e514;
+}
+
+.img{
+    width: 550px;
+    height: 420px;
+}
+
+.display_pontos{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   gap: 12px;
+}
+
+.pontinho{
+    height: 18px;
+    width: 18px;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 50%;
+    outline: 2px solid white;
+    margin: 0px;
+    padding: 0px;
+}
+
+.pontinho:hover{
+    background-color: white;
 }
